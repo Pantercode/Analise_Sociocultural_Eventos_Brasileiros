@@ -1,0 +1,43 @@
+CREATE SCHEMA MarcellOLiveira_LAB04 
+
+
+
+
+CREATE TABLE MarcellOLiveira_LAB04.EventosLab04(
+id VARCHAR(MAX),
+eventId VARCHAR(MAX),
+duration VARCHAR(MAX),
+frequency VARCHAR(MAX),
+price VARCHAR(MAX),
+spaceId VARCHAR(MAX),
+startsAt VARCHAR(MAX),
+startsOn VARCHAR(MAX),
+classificacaoEtaria VARCHAR(MAX),
+descricaoSonora VARCHAR(MAX),
+event_Id VARCHAR(MAX),
+longDescription VARCHAR(MAX),
+name VARCHAR(MAX),
+shortDescription VARCHAR(MAX),
+site VARCHAR(MAX),
+telefonePublico VARCHAR(MAX),
+traducaoLibras VARCHAR(MAX)
+);
+
+
+
+
+CREATE TABLE MarcellOLiveira_LAB04.MuseusLab04(
+En_Estado VARCHAR(MAX),
+En_Municipio VARCHAR(MAX),
+En_Nome_Logradouro VARCHAR(MAX),
+esfera VARCHAR(MAX),
+id VARCHAR(MAX),
+name VARCHAR(MAX),
+shortDescription VARCHAR(MAX),
+telefonePublico VARCHAR(MAX),
+latitude VARCHAR(MAX),
+longitude VARCHAR(MAX)
+);
+
+
+
